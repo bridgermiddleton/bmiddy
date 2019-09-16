@@ -1,0 +1,46 @@
+<form>
+	<p>Registration Form</p>
+	<label>
+		First Name:<input type="text" name="first_name">
+	</label>
+	<p></p>
+	<label>
+		Last Name:<input type="text" name="last_name">
+	</label>
+	<p></p>
+	<label>
+		Email<input type="text" name="email">
+	</label>
+	<p></p>
+	<label>
+		Password<input type="password" name="password">
+	</label>
+	<p></p>
+	<label>
+		PW Confirm<input type="password" name="password_confirm">
+	</label>
+	<p></p>
+	<label>
+		Birthday<input type="date" name="birthday">
+	</label>
+	<p></p>
+	<label>
+		Male<input type="radio" name="gender" value="male">
+	</label>
+	<label>
+		Female<input type="radio" name="gender" value="female">
+	</label>
+	<label>
+		Other<input type="radio" name="gender" value="decline">
+	</label>
+	<p>A short description about yourself:</p>
+	<textarea name="description"></textarea>
+	<p></p>
+	<select name="favorite_language">
+		<option value="javascript">JavaScript</option>
+		<option value="html">HTML</option>
+		<option value="css">CSS</option>
+	</select>
+	<p></p>
+	<input type="submit" value="Submit">
+</form>
