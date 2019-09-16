@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fake Blog</title>
+	<meta name="description" content="This is a fake blog...sorry.">
+</head>
+<body>
+	<h1>Tiger Woods</h1>
+	<img src="https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-s3.si.com%2Fs3fs-public%2Fstyles%2Fmarquee_large_2x%2Fpublic%2F2019%2F06%2F03%2Ftiger-woods-us-open-preview.jpg%3Fitok%3DG52hqBtZ&w=1600&q=70" alt="Image of Tiger Woods" height=300 width=400>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut leo tincidunt, vehicula felis sit amet, imperdiet justo. Maecenas hendrerit, odio id condimentum finibus, erat ex pharetra lectus, non auctor turpis est non lectus. Morbi non tellus eleifend, consectetur tortor et, congue nisi. Ut gravida odio at pellentesque pellentesque. Maecenas placerat, sem non dignissim dictum, nibh urna hendrerit risus, interdum pulvinar velit tellus eget quam. Aliquam bibendum massa et metus ultrices, ac eleifend tellus mattis. Etiam a placerat diam. Nunc non mollis urna, a blandit dolor. Fusce molestie enim id dui pretium tempor. Aliquam ultricies lorem ante. Morbi quis sapien justo. Suspendisse vitae magna sit amet erat aliquet volutpat sed sed sem. Nunc et laoreet tortor. Aliquam nec dapibus nulla, et pharetra lacus.</p>
+	<h3>Tiger Woods Wins (1997-2019)</h3>
+	<table>
+		<thead>
+			<tr>
+				<th>Year</th>
+				<th>Wins</th>
+				<th>Majors</th>
+			</tr>
+		</thead>
+		<tbody>
+			<div>
+				<tr>
+					<td>1996-2004</td>
+					<td>40</td>
+					<td>8</td>
+				</tr>
+			</div>
+			<div>
+				<tr>
+					<td>2005-2013</td>
+					<td>39</td>
+					<td>6</td>
+				</tr>
+			</div>
+			<div>
+				<tr>
+					<td>2014-2019</td>
+					<td>2</td>
+					<td>1</td>
+				</tr>
+			</div>
+		</tbody>
+	</table>
+	<h4>Tiger's Top Five Moments</h4>
+		<ol>
+			<li>2008 U.S. Open: Putt to Force a Playoff</li>
+			<li>2005 Masters: Chip in on 16 During the Final Round</li>
+			<li>Winning the 2019 Masters</li>
+			<li>Emotional Open Championship Win After Father's Passing</li>
+			<li>The Tiger Slam</li>
+		</ol>
+	<h4>Fun Facts</h4>
+		<ul>
+			<li>His real name is "Eldrick</li>
+			<li>Youngest golfer to win the career Grand Slam</li>
+			<li>He attended Stanford University</li>
+		</ul>
+
+	<a href="https://www.youtube.com/watch?v=d9ItOn8O0G4">Epic Tiger Woods Highlight Video</a>
+
+	<h2>Please take this short survey</h2>
+		<div>
+			<label>
+				Email:<input type="text" name="email">
+			</label>
+		</div>
+		<div>
+			<label>
+				Yes, please send me lots of emails<input type="radio" name="yes">
+			</label>
+			<label>
+				No, please do not send me any emails<input type="radio" name="no">
+			</label>
+		</div>
+	<h4>How did you hear about us?</h4>
+		<div>
+			<label>
+				Facebook<input type="checkbox" name="howDidYouHear">
+			</label>
+		</div>
+		<div>
+			<label>
+				Newspaper<input type="checkbox" name="howDidYouHear">
+			</label>
+		</div>
+		<div>
+			<label>
+				Referral<input type="checkbox" name="howDidYouHear">
+			</label>
+		</div>
+		<input type="submit" value="Submit">
+</body>
+</html>
